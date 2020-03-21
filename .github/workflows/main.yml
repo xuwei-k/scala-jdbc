@@ -14,9 +14,9 @@ jobs:
       with:
         java-version: 1.8
     - name: Test with Scala 2.11
-      run: sbt "++ 2.11.8 test"
+      run: sbt "++ 2.11.12 test"
     - name: Test with Scala 2.12
-      run: sbt "++ 2.12.8 test"
+      run: sbt "++ 2.12.11 test"
     - name: Test with Scala 2.13
-      run: sbt "++ 2.13.0 test"
+      run: sbt "++ 2.13.1 test"
 
